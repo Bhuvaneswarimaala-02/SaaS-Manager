@@ -32,8 +32,8 @@ public class Main {
         this.dao = dao;
 
         // Add Subscriptions
-        dao.addSubscription(new Subscription(0, "Netflix", 15.99));
-        dao.addSubscription(new Subscription(0, "Spotify", 9.99));
+//        dao.addSubscription(new Subscription(0, "Netflix", 15.99));
+//        dao.addSubscription(new Subscription(0, "Spotify", 9.99));
 
         // Retrieve and Print All Subscriptions
         List<Subscription> subscriptions = dao.getAllSubscriptions();

@@ -5,6 +5,9 @@ public class Subscription {
     private String name;
     private double price;
 
+    public Subscription() {
+    }
+
     public Subscription(int id, String name, double price) {
         this.id = id;
         this.name = name;
