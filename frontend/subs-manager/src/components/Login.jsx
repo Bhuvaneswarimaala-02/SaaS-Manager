@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 const Login = () => {
     const [formData, setFormData] = useState({ username: "", password: "" });
     const navigate = useNavigate();
-
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
